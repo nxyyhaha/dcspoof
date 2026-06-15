@@ -19,7 +19,7 @@ jobs:
           cache: pip
       - run: pip install build
       - run: pip install -e .
-      - run: python -c "import dcstatus; print('ok')"
+      - run: python -c "import dcspoof; print('ok')"
 
   publish:
     needs: test
